@@ -19,7 +19,7 @@ def compareTriplets(a, b):
     aPoint = 0
     bPoint = 0
     # Write your code here
-    for i,j in zip(a,b):
+    for i,j in zip(a,b): #zip is being used to iterate both lists
         if i>j:
             aPoint+=1
         else:
