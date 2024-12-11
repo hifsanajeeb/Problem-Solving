@@ -17,7 +17,7 @@ def simpleArraySum(ar):
     # Write your code here
     temp=0
     for i in ar:
-        temp+=i
+        temp+=i  #increement does not have any pointer
     return temp;
 
 if __name__ == '__main__':
