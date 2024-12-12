@@ -20,7 +20,7 @@ def diagonalDifference(arr):
     rightDiagonalSum=0;
     for i in range(length):
         leftDiagonalSum += arr[i][i];
-        rightDiagonalSum += arr[i][length-i-1]
+        rightDiagonalSum += arr[i][length-i-1]  # same result with         rightDiagonalSum += arr[length-i-1][i]
     return abs(rightDiagonalSum - leftDiagonalSum)
         
 
